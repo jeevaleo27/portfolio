@@ -4,7 +4,7 @@ Hello everyone! 👋
 
 I'm **Jeeva Kaleeswar**, a Full Stack Developer. This is my personal portfolio website built with React — featuring a public-facing site and an admin dashboard. All portfolio data is served from static JSON files with no external backend dependency.
 
-**Live Demo:** [need to update](need to update)
+**Live Demo:** [need to update](https://jeevaleo27.github.io/portfolio)
 
 ---
 
@@ -139,6 +139,6 @@ Upload the contents of the `dist/` folder to your hosting provider.
 ## Credits & Contact
 
 **Jeeva Kaleeswar**
-Website: [need to update](need to update) · GitHub: [jeevaleo27](https://github.com/jeevaleo27)
+Website: [Live Protofolio](https://jeevaleo27.github.io/portfolio) · GitHub: [jeevaleo27](https://github.com/jeevaleo27)
 
 ⭐ If this project helped you, consider giving it a star on GitHub!
