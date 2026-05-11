@@ -9,7 +9,7 @@ const StatusBadge = memo(() => (
     <div className="relative group">
       <div className="absolute -inset-0.5 bg-gradient-to-r from-[#6366f1] to-[#a855f7] rounded-full blur opacity-30 group-hover:opacity-50 transition duration-1000"></div>
       <div className="relative px-3 sm:px-4 py-2 rounded-full bg-black/40 backdrop-blur-xl border border-white/10">
-        <span className="bg-gradient-to-r from-[#6366f1] to-[#a855f7] text-transparent bg-clip-text sm:text-sm text-[0.7rem] font-medium flex items-center">
+        <span className="bg-gradient-to-r from-[#0ea5e9] to-[#2a9d8f] text-transparent bg-clip-text sm:text-sm text-[0.7rem] font-medium flex items-center">
           <Sparkles className="sm:w-4 sm:h-4 w-3 h-3 mr-2 text-blue-400" />
           Ready to Innovate
         </span>
@@ -24,13 +24,13 @@ const MainTitle = memo(() => (
       <span className="relative inline-block">
         <span className="absolute -inset-2 bg-gradient-to-r from-[#6366f1] to-[#a855f7] blur-2xl opacity-20"></span>
         <span className="relative bg-gradient-to-r from-white via-blue-100 to-purple-200 bg-clip-text text-transparent">
-          Frontend
+          FullStack
         </span>
       </span>
       <br />
       <span className="relative inline-block mt-2">
         <span className="absolute -inset-2 bg-gradient-to-r from-[#6366f1] to-[#a855f7] blur-2xl opacity-20"></span>
-        <span className="relative bg-gradient-to-r from-[#6366f1] to-[#a855f7] bg-clip-text text-transparent">
+        <span className="relative bg-gradient-to-r from-[#0ea5e9] to-[#2a9d8f] bg-clip-text text-transparent">
           Developer
         </span>
       </span>
@@ -47,7 +47,7 @@ const TechStack = memo(({ tech }) => (
 const CTAButton = memo(({ href, text, icon: Icon }) => (
   <a href={href}>
     <button className="group relative w-[160px]">
-      <div className="absolute -inset-0.5 bg-gradient-to-r from-[#4f52c9] to-[#8644c5] rounded-xl opacity-50 blur-md group-hover:opacity-90 transition-all duration-700"></div>
+      <div className="absolute -inset-0.5 bg-gradient-to-r from-[#0ea5e9] to-[#2a9d8f] rounded-xl opacity-50 blur-md group-hover:opacity-90 transition-all duration-700"></div>
       <div className="relative h-11 bg-[#030014] backdrop-blur-xl rounded-lg border border-white/10 leading-none overflow-hidden">
         <div className="absolute inset-0 scale-x-0 group-hover:scale-x-100 origin-left transition-transform duration-500 bg-gradient-to-r from-[#4f52c9]/20 to-[#8644c5]/20"></div>
         <span className="absolute inset-0 flex items-center justify-center gap-2 text-sm group-hover:gap-3 transition-all duration-300">
@@ -65,7 +65,7 @@ const SocialLink = memo(({ icon: Icon, link, label }) => (
   <a href={link} target="_blank" rel="noopener noreferrer" aria-label={label}>
     <button className="group relative p-3"
       aria-label={label}>
-      <div className="absolute inset-0 bg-gradient-to-r from-[#6366f1] to-[#a855f7] rounded-xl blur opacity-20 group-hover:opacity-40 transition duration-300"></div>
+      <div className="absolute inset-0 bg-gradient-to-r from-[#0ea5e9] to-[#2a9d8f] rounded-xl blur opacity-20 group-hover:opacity-40 transition duration-300"></div>
       <div className="relative rounded-xl bg-black/50 backdrop-blur-xl p-2 flex items-center justify-center border border-white/10 group-hover:border-white/20 transition-all duration-300">
         <Icon className="w-5 h-5 text-gray-400 group-hover:text-white transition-colors" />
       </div>
@@ -76,12 +76,12 @@ const SocialLink = memo(({ icon: Icon, link, label }) => (
 const TYPING_SPEED = 100;
 const ERASING_SPEED = 50;
 const PAUSE_DURATION = 2000;
-const WORDS = ["Network & Telecom Student", "Tech Enthusiast"];
-const TECH_STACK = ["React", "Javascript", "Node.js", "Tailwind"];
+const WORDS = ["Senior Software Engineer"];
+const TECH_STACK = ["Angular", "Javascript", "Node.js", "PHP", "Angular JS", "Laravel" , "Codeigniter" , "MySQL" , "PostgreSQL"];
 const SOCIAL_LINKS = [
-  { icon: Github, link: "https://github.com/EkiZR", label: "GitHub Profile" },
-  { icon: Linkedin, link: "https://www.linkedin.com/in/ekizr/", label: "LinkedIn Profile" },
-  { icon: Instagram, link: "https://www.instagram.com/ekizr_/?hl=id", label: "Instagram Profile" }
+  { icon: Github, link: "https://github.com/jeevaleo27", label: "GitHub Profile" },
+  { icon: Linkedin, link: "https://www.linkedin.com/in/jeeva-kaleeswar2710/", label: "LinkedIn Profile" },
+  { icon: Instagram, link: "https://www.instagram.com/_call_me_p_o_p_e_y_e__/", label: "Instagram Profile" }
 ];
 
 const Home = () => {
@@ -140,25 +140,25 @@ const Home = () => {
   return (
     <>
       <Helmet>
-        <title>Eki Zulfar Rachman — Frontend Web Developer</title>
-        <meta name="description" content="Website resmi Eki Zulfar Rachman, Front-End Web Developer. Saya berfokus pada penciptaan pengalaman digital yang menarik dan selalu berupaya memberikan solusi terbaik dalam setiap proyek yang saya kerjakan." />
+        <title>Jeeva kaleeswar — Full Stack</title>
+        <meta name="description" content="Official website of Jeeva Kaleeswar, Senior Full Stack Developer with expertise in Angular, NestJS, and Elasticsearch, focused on building scalable, high-performance applications and delivering impactful digital solutions." />
      <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://ekizr.com" />
-        <meta property="og:title" content="Eki Zulfar Rachman — Frontend Web Developer" />
-     <meta property="og:description" content="Website resmi dan portofolio Eki Zulfar Rachman, Front-End Web Developer." />
-        <meta property="og:url" content="https://ekizr.com" />
+        <link rel="canonical" href="" />
+        <meta property="og:title" content="Jeeva kaleeswar — Full Stack" />
+     <meta property="og:description" content="Official website of Jeeva Kaleeswar, Senior Full Stack Developer with expertise in Angular, NestJS, and Elasticsearch, focused on building scalable, high-performance applications and delivering impactful digital solutions." />
+        <meta property="og:url" content="" />
         <meta property="og:type" content="website" />
         <script type="application/ld+json">{`
           {
             "@context": "https://schema.org",
             "@type": "Person",
-            "name": "Eki Zulfar Rachman",
-            "jobTitle": "Frontend Developer",
-            "url": "https://ekizr.com",
+            "name": "Jeeva kaleeswar",
+            "jobTitle": "Full Stack Developer",
+            "url": "",
             "sameAs": [
-              "https://github.com/EkiZR",
-              "https://www.linkedin.com/in/ekizr/",
-              "https://www.instagram.com/ekizr_/"
+              "https://github.com/jeevaleo27",
+              "https://www.linkedin.com/in/jeeva-kaleeswar2710/",
+              "https://www.instagram.com/_call_me_p_o_p_e_y_e__/"
             ]
           }
         `}</script>
@@ -188,7 +188,7 @@ const Home = () => {
                   <p className="text-base md:text-lg text-gray-400 max-w-xl leading-relaxed font-light"
                     data-aos="fade-up"
                     data-aos-delay="1000">
-                    Menciptakan Website Yang Inovatif, Fungsional, dan User-Friendly untuk Solusi Digital.
+                     Creating Innovative, Functional, and User-Friendly Websites for Digital Solutions.
                   </p>
 
                   {/* Tech Stack */}

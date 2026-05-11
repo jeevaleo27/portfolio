@@ -1,0 +1,167 @@
+[
+  {
+    "id": 1,
+    "title": "STACX",
+    "description": "Power your post-closing process with a fully-automated platform. Harnessing artificial intelligence and machine learning, STACX automates and optimizes the entire post-closing process – reducing human error, turnaround time and cost at this critical stage of loan fulfillment. A critical part of every loan origination, post-closing comes with high compliance and documentation requirements. And getting it wrong can be costly, and getting it right is crucial. But with the power of automatic data extraction and document classification, STACX makes each stage of the process simpler. And smarter.",
+    "img": "/assets/projects/stacx.png",
+    "link": "https://jeeva.skills-agency.com",
+    "github": "https://github.com/jeevakaleeswarn/portfolio",
+    "tech_stack": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Ajax",
+      "PHP",
+      "BootStarp 5"
+    ],
+    "features": [
+      "Automated Post-Closing Workflow",
+      "Smart Inbox & Task Automation",
+      "Client Portal & Secure File Management"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Building Blocks",
+    "description": "Student Details and Attendance Management Application. It was developed for the NGO Building Blocks to maintain the students' and Sponsors' details",
+    "img": "/assets/projects/buildingblocks.png",
+    "link": "https://jeeva.skills-agency.com",
+    "github": "https://github.com/jeevakaleeswarn/portfolio",
+    "tech_stack": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Ajax",
+      "PHP",
+      "BootStarp 5"
+    ],
+    "features": [
+      "User friendly UI",
+      "Easyly extract the data based on the requried Values"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "MR Automation",
+    "description": "The Mr Automation Project was developed to streamline and automate repetitive operational tasks, reducing manual effort and improving efficiency. Designed a system where SQL queries are executed dynamically based on user-selected data through a simple button-driven interface. Automated the processing of closure files received via email, extracting relevant data and generating monthly reports using scheduled cron jobs. Built a user-friendly UI that enables coordinators to perform tasks easily without requiring technical knowledge. Ensured that non-technical users can independently complete workflows, minimizing dependency on developers. Improved overall productivity by automating data handling, report generation, and task execution.",
+    "img": "/assets/projects/mr_automation.png",
+    "link": "https://jeeva.skills-agency.com",
+    "github": "https://github.com/jeevakaleeswarn/portfolio",
+    "tech_stack": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Ajax",
+      "PHP",
+      "BootStarp 5"
+    ],
+    "features": [
+      "Dynamic SQL Execution via UI",
+      "Automated Email Processing & Monthly Report Generation",
+      "User-Friendly Interface for Non-Technical Users"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "UI MediaReport",
+    "description": "Media Report (MR) is a financial analytics tool developed about ten years ago to support month-end closure processes and audit-related data analysis. It automates the generation of OI reports and retrieves statistics from multiple ad platforms like AppNexus, Improve Digital, Smart Adtriple, Google Ad Manager (DFP), Beeswax, and Wetrack. Initially built for a single platform, it later expanded to support multiple ad servers. MR has two versions: Mr-site and mr-ihm, both used simultaneously for different purposes such as cron jobs, data retrieval, and report generation. The system is developed using PHP (upgraded from PHP 4 to PHP 7.3) with Zend Framework 2. It uses a PostgreSQL database with multiple schemas to manage ad server data efficiently. Overall, MR streamlines financial data processing and reporting for the finance team.",
+    "img": "/assets/projects/ui_mediareporting1.png",
+    "link": "https://jeeva.skills-agency.com",
+    "github": "https://github.com/jeevakaleeswarn/portfolio",
+    "tech_stack": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "PHP"
+    ],
+    "features": [
+      "Automated Report Generation",
+      "Multi-Platform Data Integration",
+      "Centralized Data Management"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Adux BO",
+    "description": "In Adux Back Office (BO), we developed a user-friendly interface to create and manage campaigns based on client requirements. Users can configure creatives, targeting options, and audience-specific levers to effectively reach their target segments. A dedicated campaign page provides a centralized view of all campaign statistics, enabling easy extraction and calculation of performance metrics without switching between systems. Campaigns are executed across multiple DSP platforms such as Hawk, Improve Digital, and Xandr. The platform also ensures seamless data synchronization with MR for audit and invoice generation. Additionally, the same workflow is implemented across multiple domains, including Belgium, International, Quantum, and France, ensuring consistency and scalability. Overall, the system enhances efficiency, transparency, and ease of campaign management.",
+    "img": "/assets/projects/adux_bo1.png",
+    "link": "https://jeeva.skills-agency.com",
+    "github": "https://github.com/jeevakaleeswarn/portfolio",
+    "tech_stack": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Ajax",
+      "PHP",
+      "BootStarp 5",
+      "Angular JS"
+    ],
+    "features": [
+      "Campaign Creation & Targeting Management",
+      "Centralized Campaign Analytics Dashboard",
+      "Multi-DSP Integration & Data Sync"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Azerion Proximity",
+    "description": "In Azerion Proximity (Front Office - FO), we build audience segments based on selected Points of Interest (POIs). For each POI, we provide estimated reach and impressions using data from the last 90 days. This data is stored and processed in Elasticsearch, enabling fast and accurate campaign planning based on location-specific client requirements. We create clusters to identify the number of IDFAs within a defined distance from each POI. Additionally, we generate live retargeting (RTG) clusters that provide real-time audience data. Based on POIs, buildings, or zones, we efficiently process and segment IDFAs for precise targeting.",
+    "img": "/assets/projects/azerion_proximity1.png",
+    "link": "",
+    "github": "Private",
+    "tech_stack": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Ajax",
+      "PHP",
+      "BootStarp 5",
+      "Angular JS"
+    ],
+    "features": [
+      "POI-Based Audience Segmentation with Estimations",
+      "High-Performance Data Handling with Elasticsearch",
+      "Distance-Based Clustering & Live RTG"
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Dashboards",
+    "description": "The Dashboard module processes data from uploaded .xlsx files and dynamically generates interactive visualizations based on the input values. It presents insights through various components such as pie charts, line graphs, bar charts, tables, and summary cards. The UI is built using Bootstrap along with the Material Pro Theme, ensuring a responsive and modern user experience. This enables users to quickly analyze data and make informed decisions through clear visual representation.",
+    "img": "/assets/projects/dashboards.png",
+    "link": "",
+    "github": "Private",
+    "tech_stack": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Ajax",
+      "PHP",
+      "BootStarp 5",
+      "Material Pro UI"
+    ],
+    "features": [
+      "Excel Data Integration",
+      "Rich Data Visualization",
+      "Responsive UI Design"
+    ]
+  },
+  {
+    "id": 8,
+    "title": "HAWK",
+    "description": "Hawk is a centralized advertising platform that enables users to create media plans and campaigns based on business objectives like brand awareness or driving store visits. Users can define budget, select channels (mobile, audio, etc.), and target audiences using age, gender, location, and interests. The platform allows campaign scheduling and creative uploads to activate campaigns. All campaigns are executed through the Hawk DSP, where performance data is also retrieved. It supports multiple domains such as France, US, JCDecaux, and Bauer Media. Additionally, AI features and chatbot support assist users in creating media plans and campaigns efficiently.",
+    "img": "/assets/projects/hawk.png",
+    "link": "https://hawk.skills-agency.com",
+    "github": "Private",
+    "tech_stack": [
+      "Material UI",
+      "Angular",
+      "Nest JS"
+    ],
+    "features": [
+      "Advanced Targeting & Multi-Channel Campaigns",
+      "AI-Powered Automation",
+      "End-to-End Campaign Management"
+    ]
+  }
+]

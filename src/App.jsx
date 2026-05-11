@@ -5,6 +5,7 @@ import "./index.css";
 import Navbar from "./components/Navbar";
 import Home from "./Pages/Home";
 import About from "./Pages/About";
+import WorkedAt from "./Pages/WorkedAt";
 import AnimatedBackground from "./components/Background";
 import { AnimatePresence } from "framer-motion";
 import Footer from "./components/Footer";
@@ -36,6 +37,7 @@ const LandingPage = ({ showWelcome, setShowWelcome }) => {
       
           <Home />
           <About />
+          <WorkedAt />
           <Suspense fallback={<div className="h-20" />}>
             <Portofolio />
             <ContactPage />
