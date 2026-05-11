@@ -1,16 +1,25 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
-import fs from 'fs';
+import fs from 'fs'
 
-// https://vite.dev/config/
-export default defineConfig({
-  plugins: [react()],
-  server: {
-    https: {
+const sslConfig = (() => {
+  try {
+    return {
       key: fs.readFileSync('/etc/apache2/ssl/apache.key'),
       cert: fs.readFileSync('/etc/apache2/ssl/apache.crt'),
-    },
-    host: true, // exposes to network if needed
+    }
+  } catch {
+    return undefined
+  }
+})()
+
+export default defineConfig({
+  base: '/portfolio/',
+  plugins: [react()],
+  envPrefix: ['VITE_', 'APP_'],
+  server: {
+    https: sslConfig,
+    host: true,
     port: 5173,
   },
 })

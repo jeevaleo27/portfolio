@@ -67,7 +67,7 @@ function App() {
       <div className="pointer-events-none">
   <AnimatedBackground />
 </div>
-      <BrowserRouter>
+      <BrowserRouter basename="/portfolio">
         <Routes>
           {/* PUBLIC */}
           <Route
