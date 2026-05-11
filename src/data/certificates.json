@@ -2,16 +2,16 @@
   {
     "id": 1,
     "title": "Angular Certificate",
-    "img": "/assets/certificates/angular_begginer_certificate.png"
+    "img": "/portfolio/assets/certificates/angular_begginer_certificate.png"
   },
   {
     "id": 2,
     "title": "Docker Certificate",
-    "img": "/assets/certificates/docker_certificate.png"
+    "img": "/portfolio/assets/certificates/docker_certificate.png"
   },
   {
     "id": 3,
     "title": "Git Hub Certificate",
-    "img": "/assets/certificates/git_hub_certificate.png"
+    "img": "/portfolio/assets/certificates/git_hub_certificate.png"
   }
 ]
