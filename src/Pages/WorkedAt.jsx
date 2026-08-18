@@ -13,7 +13,7 @@ const experiences = [
     type: "Full-time",
     roles: [
       { title: "Lead - Software Engineer", duration: "July 2026 – Present", current: true },
-      { title: "Senior - Software Engineer", duration: "July 2025 – June 2026", current: true },
+      { title: "Senior - Software Engineer", duration: "July 2025 – June 2026"},
       { title: "Software Engineer", duration: "June 2022 – June 2025" },
     ],
     description:
