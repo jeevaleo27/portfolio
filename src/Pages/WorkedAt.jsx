@@ -12,7 +12,8 @@ const experiences = [
     location: "Bangalore",
     type: "Full-time",
     roles: [
-      { title: "Senior - Software Engineer", duration: "July 2025 – Present", current: true },
+      { title: "Lead - Software Engineer", duration: "July 2026 – Present", current: true }
+      { title: "Senior - Software Engineer", duration: "July 2025 – June 2026", current: true },
       { title: "Software Engineer", duration: "June 2022 – June 2025" },
     ],
     description:
