@@ -145,7 +145,8 @@ const TimelineCard = ({ exp, index }) => {
                               Current
                             </span>
                           )}
-                          {i === exp.roles.length - 1 && !r.current && (
+                          { !r.current && (
+                            //i === exp.roles.length - 2 &&
                             <span className="text-[10px] px-2 py-0.5 rounded-full bg-white/5 border border-white/10 text-white/40">
                               Promoted ↑
                             </span>
